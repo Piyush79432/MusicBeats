@@ -1,0 +1,66 @@
+/* Styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+
+/* Styles for the top bar */
+.top-bar {
+    background: #940cb6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.top-bar img {
+    max-width: 100px; /* Adjust the max-width to fit your logo */
+}
+
+/* Styles for the form container */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the form title */
+h3 {
+    text-align: center;
+    margin: 20px 10px;
+    font-family: 'Lato', sans-serif; /* Make sure you have the Lato font available */
+}
+
+/* Styles for input labels */
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Styles for input fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Styles for the "Pay Now" button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #660daf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the "Pay Now" button */
+.btn:hover {
+    background: #7517b4;
+}

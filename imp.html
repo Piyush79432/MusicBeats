@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DesignEase</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.ico">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/new.css">
+    <link rel="stylesheet" href="./style1.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.0/dist/jdenticon.min.js" async
+        integrity="sha384-VngWWnG9GS4jDgsGEUNaoRQtfBGiIKZTiXwm9KpgAeaRn6Y/1tAFiyXqSzqC8Ga/"
+        crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="cart/contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo223.jpeg" alt="Logo" class="img-fluid" style="height: 50px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="base.html"><h4>Home</h4></a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"><h4>About Us</h4></a></li>
+                    <li class="nav-item"><a class="nav-link" href="imp.html"><h4>Courses</h4></a></li>
+                    <li class="nav-item"><a class="nav-link" href="repair.html"><h4>Repair</h4></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html"><h4>Contact Us</h4></a></li>
+                    <li class="nav-item"><a class="nav-link" href="checkout.html"><h4>CheckOut</h4></a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+<br><br>
+<div class="tab-content wow fadeIn animated" id="myTabContent">
+    <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+        <div class="row product-grid-4">
+            <style>
+                .product-img img {
+                    width: 100%;
+                    height: 250px;
+                    object-fit: cover;
+                }
+                .product-cart-wrap {
+                    position: relative;
+                }
+                .product-cart-wrap:hover .popup-info {
+                    display: block;
+                }
+                .popup-info {
+                    display: none;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: rgba(0, 0, 0, 0.7);
+                    color: #fff;
+                    padding: 10px;
+                    border-radius: 5px;
+                    width: 80%;
+                    text-align: center;
+                    font-size: 14px;
+                }
+                .price-tag {
+                    font-weight: bold;
+                    color: #d4af37;
+                    margin-top: 10px;
+                }
+            </style>
+            
+            <!-- Accordion Course -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="res">
+                <div class="product-cart-wrap mb-30">
+                    <div class="product-img-action-wrap">
+                        <div class="product-img product-img-zoom">
+                            <a href="product-details.html">
+                                <img class="default-img" src="https://www.bax-shop.nl/blog/wp-content/uploads/2020/01/blog_accordeon.jpg" alt="">
+                            </a>
+                            <div class="popup-info">Accordion: A unique course on learning this versatile instrument.</div>
+                        </div>
+                        <div class="product-badges product-badges-position product-badges-mrg">
+                            <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                        </div>
+                    </div>
+                    <div class="product-content-wrap">
+                        <h2><a href="product-details.html">Accordion Course</a></h2>
+                        <div class="price-tag">INR 3,500</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Piano Course -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="cov">
+                <div class="product-cart-wrap mb-30">
+                    <div class="product-img-action-wrap">
+                        <div class="product-img product-img-zoom">
+                            <a href="product-details.html">
+                                <img class="default-img" src="https://media.cnn.com/api/v1/images/stellar/prod/210427161401-skoove-piano-course-lead.jpg?q=x_0,y_0,h_2443,w_4341,c_fill" alt="">
+                            </a>
+                            <div class="popup-info">Piano: Master classical and modern techniques in piano playing.</div>
+                        </div>
+                        <div class="product-badges product-badges-position product-badges-mrg">
+                            <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                        </div>
+                    </div>
+                    <div class="product-content-wrap">
+                        <h2><a href="product-details.html">Piano Course</a></h2>
+                        <div class="price-tag">INR 3,500</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guitar Course -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="inp">
+                <div class="product-cart-wrap mb-30">
+                    <div class="product-img-action-wrap">
+                        <div class="product-img product-img-zoom">
+                            <a href="product-details.html">
+                                <img class="default-img" src="https://www-ecs.jamplay.com/client/global/images/shell/guitar-lessons/beginner/beg-guitar-meta.jpeg" alt="">
+                            </a>
+                            <div class="popup-info">Guitar: Learn chords, strumming, and fingerpicking techniques.</div>
+                        </div>
+                        <div class="product-badges product-badges-position product-badges-mrg">
+                            <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                        </div>
+                    </div>
+                    <div class="product-content-wrap">
+                        <h2><a href="product-details.html">Guitar Course</a></h2>
+                        <div class="price-tag">INR 3,500</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flute Course -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="doc">
+                <div class="product-cart-wrap mb-30">
+                    <div class="product-img-action-wrap">
+                        <div class="product-img product-img-zoom">
+                            <a href="product-details.html">
+                                <img class="default-img" src="https://cdn-gjkjl.nitrocdn.com/ICFvydVdyLXJQdmtaEubCCbQOkHyYOBW/assets/images/optimized/rev-0e33e64/mississaugapianostudios.com/wp-content/uploads/2019/12/flute-lessons-mississauga.jpg" alt="">
+                            </a>
+                            <div class="popup-info">Flute: An introductory course on mastering the flute.</div>
+                        </div>
+                        <div class="product-badges product-badges-position product-badges-mrg">
+                            <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                        </div>
+                    </div>
+                    <div class="product-content-wrap">
+                        <h2><a href="product-details.html">Flute Course</a></h2>
+                        <div class="price-tag">INR 3,500</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drum Course -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="res">
+                <div class="product-cart-wrap mb-30">
+                    <div class="product-img-action-wrap">
+                        <div class="product-img product-img-zoom">
+                            <a href="product-details.html">
+                                <img class="default-img" src="https://westislandmusicacademy.com/wp-content/uploads/2022/09/drums-lessons-montreal.jpg" alt="">
+                            </a>
+                            <div class="popup-info">Drums: Learn rhythm, tempo, and percussion techniques.</div>
+                        </div>
+                        <div class="product-badges product-badges-position product-badges-mrg">
+                            <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                        </div>
+                    </div>
+                    <div class="product-content-wrap">
+                        <h2><a href="product-details.html">Drum Course</a></h2>
+                        <div class="price-tag">INR 3,500</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Course -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="cov">
+                <div class="product-cart-wrap mb-30">
+                    <div class="product-img-action-wrap">
+                        <div class="product-img product-img-zoom">
+                            <a href="product-details.html">
+                                <img class="default-img" src="https://5.imimg.com/data5/TZ/HA/YY/SELLER-82728696/tabla-classes.jpg" alt="">
+                            </a>
+                            <div class="popup-info">Tabla: Learn rhythms and beats of Indian classical music.</div>
+                        </div>
+                        <div class="product-badges product-badges-position product-badges-mrg">
+                            <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                        </div>
+                    </div>
+                    <div class="product-content-wrap">
+                        <h2><a href="product-details.html">Tabla Course</a></h2>
+                        <div class="price-tag">INR 3,500</div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="inp">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <a href="product-details.html">
+                                        <img class="default-img" src="https://c02.purpledshub.com/uploads/sites/43/2021/03/when-was-the-violin-invented-2ccbe78.jpg" alt="">
+                                    </a>
+                                    <div class="popup-info">Violin: Explore the art of playing the violin from basics to advanced techniques.</div>
+                                </div>
+                                <div class="product-badges product-badges-position product-badges-mrg">
+                                    <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                                </div>
+                            </div>
+                            <div class="product-content-wrap">
+                                <h2><a href="product-details.html">Violin Course</a></h2>
+                                <div class="price-tag">INR 3,500</div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Harmonium Course -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="cov">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <a href="product-details.html">
+                                        <img class="default-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpbYAXpT8uVplo1Sc7kJ0HLwFmyPcyfBWZWw&s" alt="">
+                                    </a>
+                                    <div class="popup-info">Harmonium: Learn to play melodies and harmonize with the harmonium.</div>
+                                </div>
+                                <div class="product-badges product-badges-position product-badges-mrg">
+                                    <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                                </div>
+                            </div>
+                            <div class="product-content-wrap">
+                                <h2><a href="product-details.html">Harmonium Course</a></h2>
+                                <div class="price-tag">INR 3,500</div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Sitar Course -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="inp">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <a href="product-details.html">
+                                        <img class="default-img" src="https://akm-img-a-in.tosshub.com/sites/gloss99/resources/202212/untitled-design-2022-12-16t115459086161222115504.jpeg" alt="">
+                                    </a>
+                                    <div class="popup-info">Sitar: Dive into classical Indian music with this sitar course.</div>
+                                </div>
+                                <div class="product-badges product-badges-position product-badges-mrg">
+                                    <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                                </div>
+                            </div>
+                            <div class="product-content-wrap">
+                                <h2><a href="product-details.html">Sitar Course</a></h2>
+                                <div class="price-tag">INR 3,500</div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Saxophone Course -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="doc">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <a href="product-details.html">
+                                        <img class="default-img" src="https://www.bsmny.org/wp-content/uploads/2019/08/pexels-photo-1049690-1024x678.jpeg" alt="">
+                                    </a>
+                                    <div class="popup-info">Saxophone: Learn jazz, blues, and classical saxophone playing techniques.</div>
+                                </div>
+                                <div class="product-badges product-badges-position product-badges-mrg">
+                                    <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                                </div>
+                            </div>
+                            <div class="product-content-wrap">
+                                <h2><a href="product-details.html">Saxophone Course</a></h2>
+                                <div class="price-tag">INR 3,500</div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Ukulele Course -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6" data-category="res">
+                        <div class="product-cart-wrap mb-30">
+                            <div class="product-img-action-wrap">
+                                <div class="product-img product-img-zoom">
+                                    <a href="product-details.html">
+                                        <img class="default-img" src="https://muziekacademieamsterdam.com/wp-content/uploads/2023/10/PTH_8248-1826x1152-1-640x360.jpeg" alt="">
+                                    </a>
+                                    <div class="popup-info">Ukulele: A beginner's guide to playing fun tunes on the ukulele.</div>
+                                </div>
+                                <div class="product-badges product-badges-position product-badges-mrg">
+                                    <span class="sale"><i class="text-yellow-400 fas fa-crown"></i></span>
+                                </div>
+                            </div>
+                            <div class="product-content-wrap">
+                                <h2><a href="product-details.html">Ukulele Course</a></h2>
+                                <div class="price-tag">INR 3,500</div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
